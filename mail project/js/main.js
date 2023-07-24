@@ -10,3 +10,5 @@ const emails = [
   "example9@mail.com",
   "example10@mail.com",
 ];
+
+let userEmail = prompt("Inserisci qui la tue email:");
