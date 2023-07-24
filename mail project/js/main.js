@@ -13,3 +13,15 @@ const emails = [
 
 let userEmail = prompt("Inserisci qui la tue email:");
 let allowedEmail = false;
+
+for (let i = 0; i < emails.length; i++) {
+  if (userEmail == emails[i]) {
+    allowedEmail = true;
+  }
+}
+
+if (allowedEmail) {
+  console.log("Accesso effettuato");
+} else {
+  console.log("Accesso negato");
+}
