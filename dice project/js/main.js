@@ -5,3 +5,11 @@ console.log(userNumber);
 
 const cpuNumber = numbers[Math.floor(Math.random() * numbers.length)];
 console.log(cpuNumber);
+
+if (userNumber > cpuNumber) {
+  console.log("User wins!");
+} else if (cpuNumber > userNumber) {
+  console.log("CPU wins!");
+} else {
+  console.log("It's a draw!");
+}
