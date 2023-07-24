@@ -12,3 +12,4 @@ const emails = [
 ];
 
 let userEmail = prompt("Inserisci qui la tue email:");
+let allowedEmail = false;
